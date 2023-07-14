@@ -8,7 +8,7 @@ output [7:0] fifo_counter; // counting the location in buffer
 
 reg[7:0] buf_out;
 reg buf_empty, buf_full;
-reg[6:0] fifo_counter;
+reg[7:0] fifo_counter;
 reg[3:0] rd_ptr, wr_ptr; // pointer that will move back and forth within the FIFO
 reg[7:0] buf_mem[63:0]; // total memory location
 
